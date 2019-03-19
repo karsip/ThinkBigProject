@@ -1,0 +1,373 @@
+.demo11{background:#B1EA86;padding:30px 0}
+.pricingTable11{text-align:center;background:#ffffff;margin:0 -15px;box-shadow:0 0 10px #ababab;padding-bottom:40px;border-radius:10px;color:#cad0de;transform:scale(1);transition:all .5s ease 0s}
+.pricingTable11:hover{transform:scale(1.05);z-index:1}
+.pricingTable11 .pricingTable-header{padding:40px 0;background:#f5f6f9;border-radius:10px 10px 50% 50%;transition:all .5s ease 0s}
+.pricingTable11:hover .pricingTable-header{background:#ff9624}
+.pricingTable11 .pricingTable-header i{font-size:50px;color:#858c9a;margin-bottom:10px;transition:all .5s ease 0s}
+.pricingTable11 .price-value{font-size:35px;color:#ff9624;transition:all .5s ease 0s}
+.pricingTable11 .month{display:block;font-size:14px;color:#cad0de}
+.pricingTable11:hover .month,.pricingTable11:hover .price-value,.pricingTable11:hover .pricingTable-header i{color:#fff}
+.pricingTable11 .heading{font-size:24px;color:#ff9624;margin-bottom:20px;text-transform:uppercase}
+.pricingTable11 .pricing-content ul{list-style:none;padding:0;margin-bottom:30px}
+.pricingTable11 .pricing-content ul li{line-height:30px;color:#a7a8aa}
+.pricingTable11 .pricingTable-signup a{display:inline-block;font-size:15px;color:#fff;padding:10px 35px;border-radius:20px;background:#ffa442;text-transform:uppercase;transition:all .3s ease 0s}
+.pricingTable11 .pricingTable-signup a:hover{box-shadow:0 0 10px #ffa442}
+.pricingTable11.blue .heading,.pricingTable11.blue .price-value{color:#4b64ff}
+.pricingTable11.blue .pricingTable-signup a,.pricingTable11.blue:hover .pricingTable-header{background:#4b64ff}
+.pricingTable11.blue .pricingTable-signup a:hover{box-shadow:0 0 10px #4b64ff}
+.pricingTable11.red .heading,.pricingTable11.red .price-value{color:#ff4b4b}
+.pricingTable11.red .pricingTable-signup a,.pricingTable11.red:hover .pricingTable-header{background:#ff4b4b}
+.pricingTable.red .pricingTable-signup a:hover{box-shadow:0 0 10px #ff4b4b}
+.pricingTable11.green .heading,.pricingTable11.green .price-value{color:#40c952}
+.pricingTable11.green .pricingTable-signup a,.pricingTable11.green:hover .pricingTable-header{background:#40c952}
+.pricingTable11.green .pricingTable-signup a:hover{box-shadow:0 0 10px #40c952}
+.pricingTable11.blue:hover .price-value,.pricingTable11.green:hover .price-value,.pricingTable11.red:hover .price-value{color:#fff}
+@media screen and (max-width:990px){
+    .pricingTable11{margin:0 0 20px
+     }}
+
+
+
+
+     /* .col-md-3 {
+
+        margin-left: 16px;
+    } */
+
+    .demo11 {
+        background: #E8F3DF;
+        padding: 30px 0;
+    }
+
+    .bubucontent { 
+        display: inline-block;
+    }
+
+
+
+    .content {
+        text-align: center;
+        position: absolute;
+        top: 50px;
+    }
+
+    .Tekstas{
+        background-color: white;
+        font-size: 150%;
+    }
+
+    .triangle-left {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 10vw;
+            background-image: url(//www.appstart.lt/svg/diagonal3.svg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-top: -10vw;   
+            color: white;  
+            position:static;
+            
+    }
+
+
+    .demo11 {
+    background: #f8f9fa;
+    padding: 80px;
+    
+         
+}
+.background-image {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Teksatas1{ 
+
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    
+
+}
+
+.zodziai2{
+    background:blue;
+    background: transparent;
+}
+.container2{
+    align-content: center;
+    
+}
+.Paveiksliukas{
+    background: transparent;
+    height: 60px;
+    align: center;
+}
+
+
+
+.Teksatas1{ 
+
+    text-align: center;
+    background-color: white;
+    height: 200px;
+
+}
+
+.Tekstas2{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 100px;
+    display: flex;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.html, body {
+    background-color: rgb(255, 255, 255);
+    color: #212529;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 50vh;
+    margin: 0;
+  
+    
+}
+
+.col-sm{
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.zodziai2{
+  
+
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  background-color: t;
+}
+
+.Paveiksliukas{
+
+  height: 500px;
+
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.col1{
+
+    -webkit-align-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+.col{
+    -webkit-align-content: center;
+  align-content: center;
+  text-align: center;
+ 
+}
+
+
+.fusion-column-wrapper{
+    padding: 20px 0px 180px 0px;
+    background-position:left top;
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    
+}
+     
+
+
+  .zodziai2{
+      background-color: lightblue;
+  }
+  
+    .zodziai3 {
+        text-align: center;
+        align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin-left: 28%;
+    margin-right: 27%;
+        
+    }
+   
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+
+
+
+#main {
+    padding-top: 70px;
+}
+
+
+.Tekstas{
+    color: black;
+}
+
+
+.zodziai2{
+    background-color: transparent;
+}
+
+.antrasMygtukas{
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.FotoVirsuje{
+    width: 100%;
+    height: auto;
+}
+
+.demo11 {
+    background: #ffffff;
+    padding: 80px;
+}
+
+.FotoApacioje{
+
+    max-height: 50%;
+     max-width: 50%;
+      width: 50%;
+       height: 50%; 
+       display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    align-self: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+.input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container4 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 50%;
+      margin-top: 0;
+      
+    }
+  } 
+
+
+
+
+
+  element {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.fusion-layout-column.fusion-column-last {
+
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.fusion-layout-column.fusion-one-full {
+
+    float: none;
+    clear: both;
+
+}
+.fusion-layout-column {
+
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+
+}
+.fusion-column-first {
+
+    clear: left;
+
+}
+* {
+
+    box-sizing: border-box;
+
+}
+
+ 
