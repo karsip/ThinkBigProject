@@ -3,22 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Foundation\Bus\DispatchesJobs;
-use Illuminate\Routing\Controller as BaseController;
-use Illuminate\Foundation\Validation\ValidatesRequests;
-use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SendMail;
 
-class ContactController extends BaseController
+class SendEmailController extends BaseController
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
-
-    function returnContact() {
-        return view('Contact');
-    }
-
     function index(){
 
         return view('Contact');
@@ -32,6 +21,7 @@ class ContactController extends BaseController
             'message'   =>      'required'
         ]);
 
+
         $data = array(
             'name'      =>  $request->name,
             'message'   =>   $request->message
@@ -40,5 +30,4 @@ class ContactController extends BaseController
      Mail::to('karolis.sipavicius1@gmail.com')->send(new SendMail($data));
      return back()->with('success', 'Thanks for contacting us!');
     }
-
 }

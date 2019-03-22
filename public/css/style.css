@@ -73,7 +73,7 @@
 
     .demo11 {
     background: #f8f9fa;
-    padding: 80px;
+    padding: 70px;
     
          
 }
@@ -120,8 +120,8 @@
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 15px;
-    padding-left: 100px;
+    align-items: center;
+    align-self: center;
     display: flex;
     align-content: center;
     background-color: rgb(255, 255, 255);
@@ -208,10 +208,12 @@
         text-align: center;
         align-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
-    margin-left: 28%;
-    margin-right: 27%;
+    width: 100%;
+    height: 100%;
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
         
     }
    
@@ -243,10 +245,11 @@
 .antrasMygtukas{
     align-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
-    margin-left: 50%;
-    margin-right: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 
 .FotoVirsuje{
@@ -370,4 +373,99 @@
 
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 15px;
+    
+
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #29daf1;
+    border-color: #29daf1;
+}
  
+.white-button:hover {
+    background-color: #6BEAB9 !important;
+    color: #ffffff !important;
+}
+
+.body {
+	margin: 0;
+	overflow: hidden;
+}
+
+.canvas {
+	background-image: radial-gradient(#666, #333);
+}
+
+#instructions {
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	padding-bottom: 6px;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}
+.column1 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    color:rgb(43, 137, 237);
+    background:white;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.img-responsive .wp-image-2273
+{
+    width:"100";
+    height:"100";
+}
+
+/*img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100px;
+    height: 100px;
+}*/
+body {
+    background: #ecf3f3;
+}
+
+.particle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+@for $i from 1 through 30 {
+    @keyframes particle-animation-#{$i} {
+        100% {
+            transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+        }
+    }
+    
+    .particle:nth-child(#{$i}){
+        animation: particle-animation-#{$i} 60s infinite;
+        $size: random(5) + 5 + px;
+        opacity: random(100)/100;
+        height: $size;
+        width: $size;
+        animation-delay: -$i * .2s;
+        transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+        background: hsl(random(360), 70%, 50%);
+    }
+}

@@ -11,19 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('Home');
-});
 
-/*
-Route::get('/', function () {
-    return view('Contact');
-});
 
-Route::get('/', function () {
+Route::get('/About', function () {
     return view('About');
 }); 
 
-Route::get('/', function () {
+Route::get('/Contact', function () {
+    return view('Contact');
+});
+Route::get('/Works', function () {
     return view('Works');
-});*/
+});
+
+Route::get('/Home', function () {
+    return view('Home');
+});
+
+Route::get('/sendemail', 'ContactController@index');
+Route::post('Contact', 'ContactController@send');

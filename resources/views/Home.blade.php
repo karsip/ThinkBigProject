@@ -10,7 +10,7 @@
     <head>
 
 
-        <title>Pricing Table</title>
+        <title>ThinkBig</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -25,6 +25,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
+    
     <img src="ThinkBigLogo.jpg" href="http://www.think-big.lt/" style= "max-height: 20%; max-width: 20%; width: 20%; height:20%; padding-bottom: 20px;">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,16 +33,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#Home">Home</a>
+            <a class="nav-link js-scroll-trigger" href="Home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#About">About</a>
+            <a class="nav-link js-scroll-trigger" href="About">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="Works">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="Contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -49,13 +50,12 @@
   </nav>
 
 <div class="pirmas fusion-fullwidth fullwidth-box fusion-parallax-fixed get-in-touch-slide hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: #ffffff;background-image: url(&quot;https://www.appstart.lt/wp-content/uploads/2016/09/slide-pic.jpg&quot;);background-position: left top;background-repeat: no-repeat;padding-top:60px;padding-right:30px;padding-bottom:90px;padding-left:30px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-attachment:fixed;"><div class="fusion-builder-row fusion-row "><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1" style="margin-top:0px;margin-bottom:0px;">
-
 <div class="fusion-column-wrapper"  data-bg-url="">
         </div>
         <div class="fusion-clearfix"></div>
-            <div class ="FotoVirsuje">
+            <div class ="FotoVirsuje" style="padding-bottom: 100px;">
             <h1 style= "text-align: center; color:white; padding-bottom:10px;"> WEB Aplikacijų Kūrimas </h1>
-            <h1 style= "text-align: center; color:white; padding-bottom:50px; font-weight: 900; font-size:22px">Jūsų idėjas paversime realybe</h1>
+            <h1 style= "text-align: center; color:white; padding-bottom:50px; font-weight: 900; font-size:22px; text-attachment:fixed;">Jūsų idėjas paversime realybe</h1>
             </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
                         <div class="pricingTable11">
                             <div class="pricingTable-header">
                                 <i class="fa fa-adjust"></i>
-                                <div class="price-value"> $10.00 <span class="month">per month</span> </div>
+                                <div class="price-value"> $100.00 <span class="month">per month</span> </div>
                             </div>
                             <h3 class="heading">Standard</h3>
                             <div class="pricing-content">
@@ -118,7 +118,7 @@
                                 </ul>
                             </div>
                             <div class="pricingTable-signup">
-                                <a href="#">sign up</a>
+                                <a href="Contact">Order</a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                         <div class="pricingTable11 green">
                             <div class="pricingTable-header">
                                 <i class="fa fa-briefcase"></i>
-                                <div class="price-value"> $20.00 <span class="month">per month</span> </div>
+                                <div class="price-value"> $200.00 <span class="month">per month</span> </div>
                             </div>
                             <h3 class="heading">Business</h3>
                             <div class="pricing-content">
@@ -140,7 +140,7 @@
                                 </ul>
                             </div>
                             <div class="pricingTable-signup">
-                                <a href="#">sign up</a>
+                                <a href="Contact">Order</a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                             <div class="pricingTable-header">
                                 <i class="fa fa-diamond"></i>
                                 <i class="fa fa-briefcase"></i>
-                                <div class="price-value"> $30.00 <span class="month">per month</span> </div>
+                                <div class="price-value"> $300.00 <span class="month">per month</span> </div>
                             </div>
                             <h3 class="heading">Premium</h3>
                             <div class="pricing-content">
@@ -162,7 +162,7 @@
                                 </ul>
                             </div>
                             <div class="pricingTable-signup">
-                                <a href="#">sign up</a>
+                                <a href="Contact">Order</a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                         <div class="pricingTable11 red">
                             <div class="pricingTable-header">
                                 <i class="fa fa-cube"></i>
-                                <div class="price-value"> $40.00 <span class="month">per month</span> </div>
+                                <div class="price-value"> $400.00 <span class="month">per month</span> </div>
                             </div>
                             <h3 class="heading">Extra</h3>
                             <div class="pricing-content">
@@ -183,7 +183,7 @@
                                 </ul>
                             </div>
                             <div class="pricingTable-signup">
-                                <a href="#">sign up</a>
+                                <a href="Contact">Order</a>
                             </div>
                         </div>
                     </div>
@@ -216,47 +216,62 @@
              <div class="container2">
                  <div class="row">
                   <div class="col-sm">
-                    <h1 style="font-size:24px">
+                    <h1 style="font-size:23px">
                     Kodėl ThinkBig?
 
                     <h1>   
                     <img src="values.jpg" style="vertical-align: middle; vertical-align: middle; height: 6em;"/>
-                    <h1 style="font-size:24px">
+                    <h1 style="font-size:23px">
                     Strategija + kokybė + kūrybiškumas + tobulėjimas
                     Aiškios vertybės pabrėš stipriąsias projekto vietas.        
                     </h1>
                     
 
-                    <button type="button" class="btn btn-primary">Sužinoti Daugiau</button>
+                    <a href="About" type="button" class="btn btn-primary" >Sužinoti Daugiau</a>
                     </div>
 
                     <div class="col-sm" >
-                    <h1 style="font-size:24px">
+                    <h1 style="font-size:23px">
                     Mūsų darbai
 
                     <h1>
                     <img src="work-2.jpg" style="vertical-align: middle; vertical-align: middle; height: 6em;"/>
-                    <h1 style="font-size:24px">
+                    <h1 style="font-size:23px">
                     Klientams, sau ir pasauliui
                     Tapsime Jūsų verslo partneriais, draugais ar prisijungsime prie startuolio.
                     </h1>
                     
-                    <button type="button" class="btn btn-primary">Peržiurėti</button>
+                    <a href="Works" type="button" class="btn btn-primary">Peržiurėti</a>
 
                     </div>
                  </div>
             </div>
         </div>
+        
     </div>
+    
   </div>
+  
 </div>
-            
 
-    <div class="fusion-fullwidth fullwidth-box fusion-parallax-fixed get-in-touch-slide hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: #ffffff;background-image: url(&quot;https://www.appstart.lt/wp-content/uploads/2018/06/pilkas-pilnas.png&quot;);background-position: left top;background-repeat: no-repeat;padding-top:300px;padding-right:30px;padding-bottom:90px;padding-left:30px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-attachment:fixed;"><div class="fusion-builder-row fusion-row "><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1" style="margin-top:0px;margin-bottom:0px;">
-    <div class="fusion-column-wrapper" data-bg-url="">
-            <div class="fusion-text"><p class="zodziai3" style="text-align:center;">Pradėkime Šiandien</p>
+    
+<div class="fusion-fullwidth fullwidth-box fusion-parallax-fixed get-in-touch-slide hundred-percent-fullwidth non-hundred-percent-height-scrolling" style="background-color: #ffffff; clip-path: 
+    polygon(
+      0% 20%,     /* top left */
+      100% 0%,     /* top left */
+      100% 0%,    /* top right */
+      100% 5%,   /* top right */
+      100% 100%,  /* bottom right */
+      95% 100%,  /* bottom right */
+      5% 100%,   /* bottom left */
+      0 100%      /* bottom left */
+    );background-image: url(&quot;https://www.appstart.lt/wp-content/uploads/2018/06/pilkas-pilnas.png&quot;);background-position: left top;background-repeat: no-repeat;padding-top:300px;padding-right:30px;padding-bottom:90px;padding-left:30px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-attachment:fixed;"><div class="fusion-builder-row fusion-row "><div class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1" style="margin-top:0px;margin-bottom:0px;">
+
+<div class="fusion-column-wrapper" data-bg-url="">
+
+            <div class="fusion-text"><p class="zodziai3" style="text-align:center; color:white; font-weight: 900; font-size:22px;">Pradėkime Šiandien</p>
                 <div class="antrasMygtukas">
-                     <button type="button2" href="http://www.think-big.lt/" class="btn btn-primary" style="button-align:center;">Laiškas</button>
+                     <a type="button2" href="Contact" class="btn btn-primary" style="button-align:center;">Pasikalbėkime</a>
                 </div>
                 
                     </div>
@@ -270,65 +285,80 @@
     </div>
 
 
-    <div class="Tekstas3" style=" background:lightblue;">
+    <div class="Tekstas3" style=" background:#3182de; color:white;">
+    <div class= "juosta" style=" background:lightblue; width:100%; height:10px;">
+        <label>
+        
+        </label>
+    </div>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
-        <div class="zodziai2">
+       
             <div class="container2">
-                <div class="row">
-                    <div class="col">
+                <div class="row" style="width:100%;">
+                    <div class=".col-md-">
                         
                          <label>
-                         <img src="Capture.jpg" style= "width: 100%; height: 100%;">
+                         <img src="Capture.jpg" style= "width: 80%; height: 80%; padding-top:10px;float: left;">
                          
                          </label>                                              
                     </div>
 
-                    <div class="col" style= "">
-                         <h1 style="text-align:left; font-size: 15px;">
-                            Rekvizitai:
+                    <div class=".col-md-" style= "">
+                         <h1 style="text-align:left; font-size: 15px; padding-top: 40px;">
+                            Taikos pr. 141, LT-51132, Kaunas
                             </h1>
                             <h1 style="text-align:left; font-size: 15px;">
-                            Įmonės kodas: 304956632
+                            +370 658 33524
                             </h1>
                             <h1 style="text-align:left; font-size: 15px;">
-                            Vadovas: Edvinas Sipavičius
-                            </h1>
-                            <h1 style="text-align:left; font-size: 15px;">
-                            Adresas: K. Būgos g. 34, Dusetos, LT-32304 Zarasų r.
-                            </h1>
-                            <h1 style="text-align:left; font-size: 15px;">
-                            Telefonas: 866906969
-                         </h1>    
-                         
+                            info@thinkBig.lt
+                            </h1>                         
                     </div>
-                    <div class="col">
-                         <h1 style="text-align:right; font-size: 15px; padding-left:200px;">
-                        © 2019 AppStart
-                        </h1>
-                        <h1 style="text-align:right; font-size: 15px;padding-left:200px;">
-                        MB „Mobiliųjų aplikacijų sprendimai“
-                        </h1>
-                        <h1 style="text-align:right; font-size: 15px;padding-left:200px;">
-                        Visos teisės saugomos
-                        </h1>
-                        <h1 style="text-align:right; font-size: 15px;padding-left:200px;">
-                        Inkubuota KTU StartupSpace
-                        </h1>
-                        <h1 style="text-align:right; font-size: 15px;padding-left:200px;">
-                        Slapukų politika
-
-                         </h1>                                              
-                    </div>
-
+                    
 
                     </div>
                 </div>
             </div>
-         </div>
+        
     </div>
 
     
 
+
+
+
+    <div id="particle-container">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+</div>
 
     </body>
 </html>
